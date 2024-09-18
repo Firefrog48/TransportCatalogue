@@ -31,7 +31,6 @@ git clone git@github.com:Firefrog48/TransportCatalogue.git
     "base_requests": [ ... ],
     "render_settings": { ... },
     "routing_settings": { ... },
-    "serialization_settings": { ... },
     "stat_requests": [ ... ]
 }
 ```
@@ -39,7 +38,6 @@ git clone git@github.com:Firefrog48/TransportCatalogue.git
 - `base_requests` — массив с описанием маршрутов и остановок.
 - `render_settings` — настройки для отрисовки карты.
 - `routing_settings` — параметры маршрутизации.
-- `serialization_settings` — настройки сериализации базы данных.
 
 ### Пример описания остановки:
 ```json
